@@ -8,6 +8,8 @@ Support route masking: it will show a different URL on the browser than the actu
 
 Style was written inside style tag and template string
 Styled jsx works as a babel plugin. It will parse all of the CSS and apply it in the build process.
+
 It also supports having constraints inside styled-jsx. In the future, you will be able to use any dynamic variable inside styled-jsx. That is why CSS needs to go inside of a template string.
 
 Style does not apply for nested component. Otherwise, you could use [global selectors](https://github.com/zeit/styled-jsx#global-selectors).
+There are a number of [other styling solutions](https://github.com/zeit/next.js#css-in-js)
